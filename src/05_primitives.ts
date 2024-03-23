@@ -1,7 +1,7 @@
-// In JavaScript, a primitive (primitive value, primitive data type) is data
-// that is not an object and has no methods or properties.
+// in JavaScript, a primitive is data
+// that is not an object and has no methods or properties
 
-// There are 7 primitive data types:
+// there are 7 primitive types:
 // ? string, number, bigint, boolean, symbol, null, undefined
 
 // primitive variables do not need an explicit type declaration
@@ -11,8 +11,8 @@ let bar = 3
 let isTrue = true
 
 // this is valid, but not recommended
-// linters handle this for you
 let baz: string = 'test'
+// linters handle this for you
 
 // foo = 4 // this will throw an error
 

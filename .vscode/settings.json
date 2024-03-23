@@ -1,12 +1,12 @@
-// {
-//   "workbench.statusBar.visible": false,
-//   "explorer.openEditors.visible": 0,
-//   "editor.minimap.enabled": false,
-//   "editor.fontFamily": "SF Mono",
-//   "editor.fontWeight": "600",
-//   "editor.fontSize": 24,
-//   "terminal.integrated.fontFamily": "SF Mono",
-//   "terminal.integrated.fontWeight": "800",
-//   "terminal.integrated.fontSize": 28,
-//   "workbench.activityBar.location": "hidden"
-// }
+{
+  "workbench.statusBar.visible": false,
+  "explorer.openEditors.visible": 0,
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "SF Mono",
+  "editor.fontWeight": "600",
+  "editor.fontSize": 24,
+  "terminal.integrated.fontFamily": "SF Mono",
+  "terminal.integrated.fontWeight": "800",
+  "terminal.integrated.fontSize": 28,
+  "workbench.activityBar.location": "hidden"
+}

@@ -4,8 +4,8 @@ type Person = {
   hobbies: string[]
 }
 
-function printHobbies(person: Person) {
-  console.log(person.hobbies)
+function printFirstHobby(person: Person) {
+  console.log(person.hobbies[0])
 }
 
 const person1: Person = {
@@ -14,22 +14,22 @@ const person1: Person = {
   hobbies: ['reading', 'swimming'],
 }
 
-printHobbies(person1)
+printFirstHobby(person1)
 
-// ----------------------------
 /**
  * what NOT to do - any
+ * any removes all type checking, which defeats the purpose of TypeScript
  */
 const person2 = {
   name: 'Joe',
   nationality: 'USA',
 }
 
-// printHobbies(person2)
+printFirstHobby(person2)
 
 /**
  * what NOT to do - casting
- * lying to TypeScript. it will lie back
+ * if you lie to TypeScript, it will lie back
  */
-printHobbies(person2 as Person)
-printHobbies(person2 as any)
+printFirstHobby(person2 as Person)
+printFirstHobby(person2 as any)

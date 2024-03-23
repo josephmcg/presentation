@@ -2,6 +2,7 @@ enum Routes {
   Home = '/home',
   Login = '/login',
   Download = '/download',
+  // Signup = '/signup',
 }
 
 enum Transitions {

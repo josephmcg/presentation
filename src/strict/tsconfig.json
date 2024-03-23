@@ -1,7 +1,6 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "noUncheckedIndexedAccess": true /* Add 'undefined' to a type when accessed using an index. */,
-    "noImplicitReturns": true /* Enable error reporting for codepaths that do not explicitly return in a function. */
+    "noUncheckedIndexedAccess": true /* Add 'undefined' to a type when accessed using an index. */
   }
 }

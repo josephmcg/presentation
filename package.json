@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "10": "tsx src/10_noUncheckedIndexedAccess.ts"
+    "07": "tsx src/07_any.ts"
   },
   "keywords": [],
   "author": "",

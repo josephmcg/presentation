@@ -9,6 +9,8 @@ const person = {
   nationality: 'USA',
 }
 
-// When you can be specific, you should be specific
-// Help other developers (including yourself) understand your code
-// autocomplete, type checking, etc.
+// when you have the chance to be specific, you should be specific
+// explicitly typed variables and functions are always safer than implicitly typed ones
+
+// help other developers (including yourself) understand your code
+// you also get autocomplete, type checking
