@@ -2,6 +2,7 @@ const routes = {
   home: '/home',
   login: '/login',
   download: '/download',
+  // signup: '/signup',
 } as const
 
 const transitions = {

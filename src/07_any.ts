@@ -1,6 +1,5 @@
 type Person = {
   name: string
-  nationality: string
   hobbies: string[]
 }
 
@@ -10,7 +9,6 @@ function printFirstHobby(person: Person) {
 
 const person1: Person = {
   name: 'Joe',
-  nationality: 'USA',
   hobbies: ['reading', 'swimming'],
 }
 
@@ -22,7 +20,6 @@ printFirstHobby(person1)
  */
 const person2 = {
   name: 'Joe',
-  nationality: 'USA',
 }
 
 printFirstHobby(person2)
